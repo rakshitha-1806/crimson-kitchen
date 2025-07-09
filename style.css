@@ -1,0 +1,350 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Manufacturing+Consent&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+ *{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color:white;
+    color: white;
+    height:180vh;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:black;
+    height: 10vh;
+}
+.logo{
+    padding-right: 30px;
+    font-family: "Playfair Display", serif;
+    color: rgb(179, 49, 49)
+}
+.logo1{
+    padding-right: 30px;
+    font-family: "Playfair Display", serif;
+    color: #f8f897f6;
+    padding-bottom:40px;
+}
+.navbar-left{
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   width: 20vw;
+   font-family: "Playfair Display", serif;
+}
+.navbar-right{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #f8f897f6;
+}
+.element{
+    padding: 10px;
+    margin: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color:  #f8f897f6;
+
+}
+.hero {
+  position: relative;
+  height: 300px;
+  color: white;
+  padding: 20px;
+  background-image: url('https://media.istockphoto.com/id/1363049240/photo/indian-food-flatlay.jpg?s=612x612&w=0&k=20&c=72hfgSYbVqqegr4ohAE1Mw8ochrUpb-H-9hpBYQIY4A=');
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6); 
+  z-index: -1;
+}
+.home{
+    text-align: center;
+    padding: 70px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+}
+.home1{
+    color: red;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+
+}
+.home2{
+    padding: 10px;
+        color: #f8f897f6;
+
+}
+.services{
+    background-color:#f8f897f6;
+    height: 400px;
+    width: full;
+    font-family: "Playfair Display", serif;
+}
+.specials{
+    text-align: center;
+    padding: 15px;
+    font-size: 40px;
+    color:rgba(131, 17, 17, 0.863);
+    font-family:'Times New Roman', Times, serif;
+}
+.dishes{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+.dish img{
+    width: 250px;
+}
+.dish img{
+    object-fit: cover;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid rgba(131, 17, 17, 0.863);
+}
+.dish h1{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgba(131, 17, 17, 0.863);
+}
+.dish p{
+    text-align: center;
+    color: rgba(131, 17, 17, 0.863);
+}
+.about{
+    background-color:rgba(131, 17, 17, 0.863);
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Playfair Display", serif;
+    color: #f8f897f6;
+}
+.about-left img{
+    width: 400px;
+    height: 400px;
+    align-items: center;
+}
+.about-left{
+    width: 50vw;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-left: 300px;
+}
+.about-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 60px;
+    font-size: 25px;
+    width: 50vw;
+}
+.about h1{
+    padding-bottom: 20px;
+}
+.contact-info{
+    height: 20vh;
+    width: full;
+    background-color: #f8f897f6;
+    text-align: center;
+      color: rgba(131, 17, 17, 0.863);
+
+}
+.contact{
+    color: rgba(131, 17, 17, 0.863);
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+}
+.phone{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    padding-left: 350px;
+    align-items: center;
+    text-align: center;
+    color: rgba(131, 17, 17, 0.863);
+}
+.phone a{ 
+    color: rgba(131, 17, 17, 0.863);
+}
+.fa-solid{
+  color: rgba(131, 17, 17, 0.863)
+}
+.menu{
+    background-color:rgba(131, 17, 17, 0.863);
+    width: full;
+    height: 110vh;
+    margin: 0;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+  .libertinus-mono-regular {
+  font-family: "Libertinus Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+}
+.list h2{
+    background-color:#f8f897f6;
+    color: rgba(131, 17, 17, 0.863);
+    height: 25px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.list li{
+    padding: 5px;
+    text-align: center;
+    color: #f8f897f6;
+}
+.menu-card{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.menu-cards{
+    padding: 10px;
+    align-items: center;
+}
+.menu-cards h1{
+   text-align: center;
+   font-size: 40px;
+   font-family: "Playfair Display", serif;
+   color: #f8f897f6;
+   padding-top: 10px;
+
+}
+.menu-cards h2{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-list{
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .navbar-left {
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0;
+    width: 100%;
+  }
+
+  .navbar-right {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .hero {
+    height: auto;
+    padding: 40px 10px;
+    background-size: cover;
+  }
+
+  .home {
+    padding: 20px;
+    font-size: 22px;
+  }
+
+  .services {
+    height: auto;
+    padding: 20px;
+  }
+
+  .dishes {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .dish img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .about-left,
+  .about-right {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .about-left {
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .about-left img {
+    width: 80%;
+    height: auto;
+  }
+
+  .contact-info {
+    height: auto;
+    padding: 20px;
+  }
+
+  .phone {
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 0;
+  }
+
+  .menu {
+    height: auto;
+    padding: 20px;
+  }
+
+  .list {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .menu-card {
+    font-size: 18px;
+  }
+
+  .menu-cards h1 {
+    font-size: 32px;
+  }
+
+  .list h2 {
+    font-size: 20px;
+  }
+}
