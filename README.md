@@ -4,13 +4,6 @@ Crimson Kitchen is a beautifully designed, **fully responsive restaurant website
 
 ---
 
-## 🔗 Live Preview
-
-➡️ **[View Project Live](#)**  
-*(Add your GitHub Pages / Netlify / Vercel link here)*
-
----
-
 ## 🎯 Project Highlights
 
 - 🍜 Elegant home page with a **hero banner** and call-to-action  
@@ -40,17 +33,6 @@ Crimson Kitchen is a beautifully designed, **fully responsive restaurant website
 ## 📱 Responsive Design
 
 This website is optimized for various screen sizes using media queries. It adjusts the navbar, hero section, menu cards, dishes layout, and more for mobile view (≤768px).
-
----
-
-## 🖼️ Screenshots
-
-> _Add screenshots here like below:_
-
-```markdown
-![Homepage](images/homepage.png)
-![Menu Page](images/menu.png)
-```
 
 ---
 
